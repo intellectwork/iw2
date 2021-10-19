@@ -28,7 +28,7 @@ export const Header = () => {
         <div className="main-menu">
             <nav className="navbar navbar-expand-lg navbar-light navbar_fixed">
                 <div className="brand">
-                    <a className="navbar-brand" href="/"><img src="./Images/navbar logo.jpg" alt="logo" /></a>
+                    <a className="navbar-brand" href="/"><img src="navbarlogo.jpg" alt="logo" /></a>
                     <a className="navbar-brand header-text" href="/">Intelect Software Work</a>
                 </div>
                 <div className="collapse navbar-collapse" id="navbarNav">
