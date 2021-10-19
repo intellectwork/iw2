@@ -1,0 +1,16 @@
+.Services {
+    margin-top: 130px;
+    .section-title {
+        padding-bottom: 10px;
+    }
+    .section-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        img {
+            width: 1000px;
+            height: 400px;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+/* Team Section CSS */
+
+  /* Team CSS */
+
+.team {
+    .member {
+        margin-bottom: 20px;
+        overflow: hidden;
+        text-align: center;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
+        .member-img {
+            position: relative;
+            overflow: hidden;
+        }
+        .social {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            height: 40px;
+            opacity: 0;
+            transition: ease-in-out 0.3s;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.85);
+            span {
+                transition: color 0.3s;
+                color: #20272c;
+                margin: 0 10px;
+                padding-top: 8px;
+                display: inline-block;
+                &:hover {
+                    color: #1a7bbd;
+                    cursor: pointer;
+                }
+            }
+            i {
+                font-size: 18px;
+                margin: 0 2px;
+            }
+        }
+        .member-info {
+            padding: 25px 15px;
+            h4 {
+                font-weight: 700;
+                margin-bottom: 5px;
+                font-size: 18px;
+                color: #124265;
+                span {
+                    display: block;
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #aaaaaa;
+                }
+            }
+        }
+        &:hover {
+            .social {
+                opacity: 1;
+            }
+            cursor: default;
+        }
+    }
+}

@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Header } from './components/Header'
+import { AboutUsSection } from './components/Sections/AboutUsSection'
+import { FAQSection } from './components/Sections/FAQSection'
+import { PortfolioSection } from './components/Sections/PortfolioSection'
+import { LocationSection } from './components/Sections/LocationSection'
+import { FeaturesSection } from './components/Sections/FeaturesSection'
 
-function App() {
+import '../src/stylesheet/fullpage.scss'
+
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> Intellectwork Software.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <React.Fragment>
+      <Header />
+      <div id='fullpage'>
+        <AboutUsSection />
+        <PortfolioSection />
+        <FeaturesSection />
+        <FAQSection />
+        <LocationSection />
+      </div>
+    </React.Fragment>
+  )
 }
-
-export default App;

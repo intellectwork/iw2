@@ -1,0 +1,37 @@
+/* Features Section */
+
+.Features {
+    .section-title {
+        p {
+            font-size: 18px;
+        }
+    } 
+    .icon-box {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: #f6f6f6;
+        transition: ease-in-out 0.3s;
+        margin: 20px 0;
+        &:hover {
+            background-color: #eef7fc;
+        }
+        i, img {
+            font-size: 28px;
+            padding-right: 10px;
+            line-height: 1;
+        }
+        h3 {
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            line-height: 1;
+            font-size: 16px;
+            transition: ease-in-out 0.3s;
+            &:hover {
+                color: #3498db;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+.pricing-heading {
+    color: rgba(17, 72, 131, 255);
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.pricing-text {
+    text-align: center;
+    margin-top: 20px;
+    word-spacing: 0.01px;
+    letter-spacing: 0.4px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.pricing-table {
+    border-radius: 10px;
+    box-shadow: 0px 5px 14px 4px rgba(0,0,0,0.15);
+    overflow: hidden;
+    .price-type {
+        h4 {
+            color: rgba(17, 72, 131, 255);
+            font-size: 19px;
+            background-color: whitesmoke;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+
+.pricing-ul {
+    list-style: none;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 35px;
+    h2 {
+        font-size: 40px;
+        font-weight: 500;
+        position: relative;
+        color: rgba(10, 127, 231, 255);
+        text-align: center;
+        span {
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+            &.dollar {
+                color: rgba(10, 127, 231, 255);
+                font-size: 20px;
+                font-weight: 1500;
+                position: absolute;
+                margin-left: -12px; 
+                margin-top: 3px;
+            }
+            &.dash {
+                font-size: 24px;
+                font-weight: 400;
+                color: rgb(214, 218, 217);
+                margin-left: 5px;
+            }
+            &.month {
+                font-size: 19px;
+                font-weight: 400;
+                color: rgb(214, 218, 217);
+                margin-left: 5px;
+            }
+        }
+    }
+} 
+
+.price-special-li {
+    text-decoration: line-through;
+    color: rgb(214, 218, 217);
+}
+
+.price-blue .price-type {
+    h4 { 
+        background-color: rgba(10, 127, 231, 255);
+        color: white;
+        width: 100%;
+    }
+} 
+
+.price-card-ribbon {
+    span {
+        position: absolute;
+        display: block;
+        width: 160px;
+        padding: 3px 0;
+        background-color: rgba(10, 127, 231, 255);
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        left: -20px;
+        top: 20px; 
+        transform: rotate(45deg);
+    }
+} 
+
+/* Button Space */
+#price-pricing-block {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100%;
+}
+
+.price-btn-blue {
+    width: 50%;
+    background-color: rgba(10, 127, 231, 255);
+    color: white;
+    font-weight: 500;
+    border-radius: 35px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    &:hover {
+        background-color: white;
+        color: rgba(10, 127, 231, 255);
+    }
+}
